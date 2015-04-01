@@ -1,0 +1,5 @@
+This is a simple structure keeping track of committed and applied tasks and also keeps track of the "leading" task. A task is leading if
+ * It is applied
+ * All task with lower id is applied
+ and
+ * It is the task with the highest id that fulfills these requirements.
